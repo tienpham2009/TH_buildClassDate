@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="date.js"></script>
+<script>
+    let date = new MyDate(2,7,2007)
+    let day = date.getDay();
+    let month = date.getMonth();
+    let year = date.getYear();
+    alert(day + '/' + month + '/' + year)
+    date.setDay(2);
+    date.setMonth(3);
+    date.setYear(2020);
+    day = date.getDay();
+    month = date.getMonth();
+    year = date.getYear();
+    alert(day + '/' + month + '/' + year);
+    date.setDate(4,6,2020);
+    day = date.getDay();
+    month = date.getMonth();
+    year = date.getYear();
+    alert(day + '/' + month + '/' + year);
+
+</script>
+
+</body>
+</html>
